@@ -1,0 +1,16 @@
+Jenkins Home directory: <JENKINS_HOME> = /var/lib/jenkins
+
+Job workspace directory: <JENKINS_HOME>\workspace\<JOB_NAME>
+
+Setup Environment Variables
+
+Configure Jenkins Location at “Manage Jenkins” > “Configure System”
+
+Configure SCM at “Manage Jenkins” > “Configure System”
+
+Configure Email Notification at “Manage Jenkins” > “Configure System”
+
+Add SCM credentials
+
+Install Plugins
+

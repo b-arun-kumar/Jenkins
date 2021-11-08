@@ -1,0 +1,16 @@
+Install Jenkins on Linux Desktop:
+https://www.jenkins.io/doc/book/installing/linux/
+
+Create Windows VM:
+https://phoenixnap.com/kb/install-virtualbox-on-ubuntu
+https://www.sysnettechsolutions.com/en/install-windows-8-1-virtualbox-windows-10/
+
+Install Jenkins agent on Windows VM:
+https://www.jenkins.io/doc/book/using/using-agents/
+https://www.edureka.co/community/48364/windows-slave-agent-jnlp-have-jenkins-master-configured-linux
+https://newbedev.com/install-jenkins-slave-as-a-windows-service-in-command-line
+
+Create Jenkins jobs:
+https://www.jenkins.io/doc/book/pipeline/
+https://www.jenkins.io/doc/book/pipeline/getting-started/
+

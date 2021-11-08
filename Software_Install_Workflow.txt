@@ -1,0 +1,12 @@
+Install Toolchain
+
+Install SCM
+
+Install IDE
+
+Install Build Dependencies
+
+Install JDK (1.8.0.112)
+
+Install Jenkins (2.19.4)
+

@@ -1,0 +1,27 @@
+Plugins:
+http://www.yolinux.com/TUTORIALS/Jenkins-Cpp-builds.html
+http://www.yolinux.com/TUTORIALS/Jenkins.html
+Scan for compiler warnings, Publish SLOCCount analysis results, Editable Email Notification, etc.
+
+Email:
+https://www.360logica.com/blog/email-notification-in-jenkins/
+
+Dependencies for a C/C++ application:
+IDE (Eclipse), SCM (SVN, Git), Toolchain(gcc, g++, arm)
+Build application using Eclipse headless build:
+/opt/eclipse-mars/eclipse -nosplash -application org.eclipse.cdt.managedbuilder.core.headlessbuild -importAll $WORKSPACE/path_to_eclipse_project -data /temp -build project/configuration -cleanBuild project/configuration
+cloc --by-file -xml --out=cloc.xml  $WORKSPACE/project
+
+Dependencies for a .NET application:
+IDE (Visual Studio), SCM (SVN, Git)
+Build application & installer:
+msbuild.exe project.csproj /T:Clean;Rebuild
+devenv.exe project.vdproj /build "Release|x86"
+
+Dependencies for a Web application:
+Ruby, Node, yo, bower, grunt-cli, SCM (SVN, Git)
+Build using grunt:
+grunt build --force
+Package as war:
+jar -cvf project.war *
+
