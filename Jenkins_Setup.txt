@@ -9,6 +9,7 @@ Install Jenkins agent on Windows VM:
 https://www.jenkins.io/doc/book/using/using-agents/
 https://www.edureka.co/community/48364/windows-slave-agent-jnlp-have-jenkins-master-configured-linux
 https://newbedev.com/install-jenkins-slave-as-a-windows-service-in-command-line
+https://www.windowscentral.com/how-create-and-run-batch-file-windows-10
 
 Create Jenkins jobs:
 https://www.jenkins.io/doc/book/pipeline/
