@@ -2,6 +2,7 @@ Plugins:
 http://www.yolinux.com/TUTORIALS/Jenkins-Cpp-builds.html
 http://www.yolinux.com/TUTORIALS/Jenkins.html
 Scan for compiler warnings, Publish SLOCCount analysis results, Editable Email Notification, etc.
+https://plugins.jenkins.io/log-parser/
 
 Email:
 https://www.360logica.com/blog/email-notification-in-jenkins/
